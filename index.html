@@ -1,33 +1,84 @@
-
 <html>
     <head>
-        <title>Untins 2025.01</title>
+        <title> Aula 03 / evellyn </title>
     </head>
     <body>
-        <!-- Exemplo de comentarios -->
-         Unitins 1 <br> <!-- a tag <br> quebra a linha -->
-         Unitins 2 <br>
-         <i> Unitins 3 </i> <br>
-         <b> Unitins 4 </b> <br>
-         <s> Unitins 5 </s>
+        <h1> Imagem 1 </h1>
+        <h1>Tabelas</h1>
+        <table border="1"
+        <th>
+            <th>Nome</th>
+                <th>Idade</th>
+                <th>Sexo</th>
+                <th>CPF</th>
+        </th>
+            <tr>
+                <td>Evellyn Abreu Sousa</td>
+                <td>18 anos</td>
+                <td>Feminino</td>
+                <td>123.456.789-10</td>
+            </tr>
+            <tr>
+                <td>Valdês Sousa Ferreira Neto</td>
+                <td>20 anos</td>
+                <td>Masculino</td>
+                <td>098.654.271-90</td>
+            </tr>
+            <tr>
+                <td>Esmeralda Fadiga dos Santos</td>
+                <td>16 anos</td>
+                <td>Feminino</td>
+                <td>872.763.072-81</td>
+            </tr>
+            <tr>
+                <td>João Pedro da Silva</td>
+                <td>19 anos</td>
+                <td>Masculino</td>
+                <td>456.789.012-34</td>
+            </tr>
+        </table>
+        <h1> FORMULÁRIOS</h1>
+        <form>
+            <label>Nome Completo:</label>
+            <input Type="text">
+            <br><br>
+            <label>Idade</label>
+            <input type="number" min="0" max="60">
+            <br><br>
+            <label>Sexo</label>
+            <input Type="radio" name="campoSexo" value="M"> Masculino
+            <input Type="radio" name="campoSexo" value="F"> Feminino
+            <br><br>
+            <label>Aplicativos</label> <br>
+            <input Type="checkbox" name="campoWhatsapp"> Whatsapp<br>
+            <input Type="checkbox" name="campoInstagram"> Instagram<br>
+            <input Type="checkbox" name="campotwiter"> twiter<br>
+            <input Type="checkbox" name="campoFacebook"> Facebook<br>
+            <br><br>
+            <label>Estado Civil</label>
+            <select name="campoEstadoCivil">
+                <option></option>
+                <option>Solteiro(a)</opition>
+                <option>Casado(a)</option>
+                <option>Divorciado(a)</option>
+                <option>Viuvo(a)</option>
+            </select>
+        </form>
+        <img src="Paisagem-1.webp" title="Paisagem na Africa" alt="Paisagem na Africa">
+        <figure> 
+            <img src="mustang-ford-novo-699x393.jpg" title="Mustang Ford" alt="Mustang Ford">
+            <figcaption>Meu caro dos sonhos</figcaption>
+        </figure>
 
-         <p>Paragrafo</p>
-         <ul> 
-            <li> Café</li>
-            <li> Arroz</li>
-            <li> Batata</li>
-            <li> Feijão</li>
-         </ul>
-         <ol> 
-            <li> Café</li>
-            <li> Arroz</li>
-            <li> Açucar</li>
-            <li> Mandioca</li>
-         </ol>
-         <a href="https://google.com"> Acessar Google</a >
-         <br> <br>
-         <img src="foto.png">
+        <h1>Video das ondas</h1>
+        <video width="500" height="200" controls>
+            <source src="Ondasvideo.mp4">
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/u6PV-yNidbY?si=yPAjaGVc_8nGTs-p"
+         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+           allowfullscreen>
+        </iframe>
 
-    </body>
+       
 
-</html>
